@@ -21,6 +21,8 @@ path = "addons/main/script_version.hpp"
 [hemtt.launch]
 workshop = [
     "2369477168", # ADT
+    # "450814997", # CBA_A3
+    # "1638341685", # DUI
 ]
 parameters = [
     "-debug",
