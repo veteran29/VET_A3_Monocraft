@@ -1,0 +1,32 @@
+name = "VET_A3_Monocraft"
+author = "veteran29"
+prefix = "vet_monocraft"
+mainprefix = "z"
+
+[files]
+include = [
+    "LICENSE",
+    "mod.cpp",
+    "README.md",
+]
+
+exclude = ["*.psd", "*.png", "*.tga"]
+
+[properties]
+author = "veteran29"
+
+[version]
+path = "addons/main/script_version.hpp"
+
+[hemtt.launch]
+workshop = [
+    "2369477168", # ADT
+]
+parameters = [
+    "-debug",
+    "-filePatching",
+    "-name=dev",
+    "-noSplash",
+    "-showScriptErrors",
+    "-window",
+]
